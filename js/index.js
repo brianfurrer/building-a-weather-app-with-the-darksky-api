@@ -273,14 +273,8 @@ function getLocation() {
 }
 
 function showPosition(position) {
-      x.innerHTML = "Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude;
 
-	//autocomplete.addListener('places_changed', function() {
-	//	var place = autocomplete.getPlaces()[0];
-	//	document.querySelector("#latitude").value = place.geometry.location.lat();
-	//	document.querySelector("#longitude").value = place.geometry.location.lng();
-	//});
+		document.querySelector("#latitude").value = position.coords.latitude;
+		document.querySelector("#longitude").value = place.position.coords.longitude;
+	
 }
-
-insertGoogleScript();
