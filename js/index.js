@@ -275,6 +275,6 @@ function getLocation() {
 function showPosition(position) {
 
 		document.querySelector("#latitude").value = position.coords.latitude;
-		document.querySelector("#longitude").value = place.position.coords.longitude;
+		document.querySelector("#longitude").value = position.coords.longitude;
 	
 }
