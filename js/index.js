@@ -246,7 +246,7 @@ $('button').on('click', function(e) {
 		// inject "new forecast" button, city name & forecast cards.
 		$('.form').fadeOut(100, function() {
 			weatherReport(lat, long);
-			$('.screen').append('<button id="back">New Forecast</button><h3 class="city">' + city_name + '</h3><ul class="list-reset fadein-stagger" id="forecast"></ul>');
+			$('.screen').append('<button id="back">New Forecast</button><h3 class="city">' + '</h3><ul class="list-reset fadein-stagger" id="forecast"></ul>');
 		});
 	}
 });
