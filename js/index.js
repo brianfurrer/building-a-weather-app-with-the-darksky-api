@@ -76,7 +76,7 @@ function weatherReport(latitude, longitude) {
 	// variables config for coordinates, url and api key
 	// latitude and longitude are accepted arguments and passed
 	// once a user has submitted the form.
-	var apiKey       = 'place api key here',
+	var apiKey       = '5e6141c4efec2b487bbd1de6b4c38db4',
 			url          = 'https://api.darksky.net/forecast/',
 			lati         = latitude,
 			longi        = longitude,
